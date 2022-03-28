@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PrizMart</title>
+  <meta name="description" content=" PrizMart Web - Choose and Buy Online Grocery from a good range of fruits, vegetables,grocery and much more. Shop Now !" />
+  <meta name="keywords" content="Online Grocery, Fruits &amp; Vegetables, Dairy, Packages Foods, Home care, Personal Care" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styleForInteriorPages.css">
+  <link rel="stylesheet" href="flickity.pkgd.js">
+  <link rel="stylesheet" href="flickity.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style media="screen">
+    @media only screen and (max-width: 768px) {
+
+      .cardForPages {
+        width: auto;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+    }
+  </style>
+</head>
+
+<body onload="myFun()">
+  <!-- <div class="container txt-cen" id="preloader">
+  <div class="spinner-grow text-muted"></div>
+  <div class="spinner-grow text-primary"></div>
+  <div class="spinner-grow text-success"></div>
+  <div class="spinner-grow text-info"></div>
+  <div class="spinner-grow text-warning"></div>
+  <div class="spinner-grow text-danger"></div>
+  <div class="spinner-grow text-secondary"></div>
+  <div class="spinner-grow text-dark"></div>
+  <div class="spinner-grow text-light"></div>
+
+  </div> -->
+  <!-- navigation bar start from here-->
+  <nav class="navbar navbar-expand-lg navigation-bar-theme">
+    <a href="index.html"><img src="logo.jpg" class="image-fluid branding-logo" alt="Logo" height="45rem" width="45rem"></a>
+    <a href="index.html" class="navbar-brand brand-name">PrizMart</a>
+    <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="menubar"></div>
+      <div class="menubar"></div>
+      <div class="menubar"></div>
+    </div>
+
+    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto navbar-undorder-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link navigation-items">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="grocery.html" class="nav-link navigation-items">Grocery</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navigation-items" data-toggle="dropdown" href="#">Services</a>
+          <div class="dropdown-menu list-bart-theme">
+            <a class="dropdown-item navigation-items" href="index.html">Fruits</a>
+            <a class="dropdown-item navigation-items" href="index.html">Vegetables</a>
+            <a class="dropdown-item navigation-items" href="medicineCourier.html">Courier</a>
+            <a class="dropdown-item navigation-items" href="stationary.html">Stationary</a>
+            <a class="dropdown-item navigation-items" href="medicineCourier.html">Medicine</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link navigation-items">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link navigation-items">My Account</a>
+        </li>
+      </ul>
+
+    </div>
+    <a href="#" style="color:black"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a>
+  </nav>
+  <!-- navbar ends here -->
+
+
+  <!-- search bar start from here -->
+  <div class="">
+    <div class="container search-barr">
+      <input type="text" placeholder="Search Your Product here" class="search-bar" name="search">
+      <a href="#" class="btn btn-primary search-buttonn">Search</a>
+    </div>
+  </div>
+  <!-- search bar ends here -->
+  <br><br>
+
+  <div class="container-fluid classDeckSuperiorDiv">
+
+    <div class="container-fluid">
+      <h1 class="headingForPages txt-cen">Rice</h1>
+    </div>
+    <div class="card-deck">
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <span class="notify-badge">Premium</span>
+          <img src="https://assets.bonappetit.com/photos/59e77b15c8947d766a9664e5/4:3/w_1920,h_1440,c_limit/basmati-rice.png" class="image-of-card " alt="Aata">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Basmati Rice</h3>
+          <p><em><strong>Discount 15% (₹28)</em><br>₹<del>218</del> ₹190</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#myModal">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header modalHeading">
+                  <h4 class="modal-title">Basmati Rice</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://assets.bonappetit.com/photos/59e77b15c8947d766a9664e5/4:3/w_1920,h_1440,c_limit/basmati-rice.png" alt="Basmati Rice" height="25%" width="55%">
+                  <br>
+                  <p style="text-align:left">Basmati rice (baz-MAH-tee) is a type of white rice commonly grown in the Himalayas, India, and Pakistan—with India producing about two-thirds of the world's supply. It is a long-grain rice that is
+                    characterized by a light nutty flavor and floral aroma, and it's popular in rice pilaf and as a side dish for curry.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://cdn.mos.cms.futurecdn.net/WiB5sGgjBe5tcryxwdak8C.jpg" class="image-of-card " alt="Aata">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Brown Rice</h3>
+          <p><em><strong>Discount 26% (₹15)</em><br>₹<del>95</del> ₹70</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#bRice">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="bRice">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Brown Rice</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://cdn.mos.cms.futurecdn.net/WiB5sGgjBe5tcryxwdak8C.jpg" alt="Basmati Rice" height="25%" width="55%">
+                  <p style="text-align: left">Brown rice is a whole grain rice with the inedible outer hull removed. This kind of rice sheds its outer hull or husk but the bran and germ layer remain on, constituting the brown or tan colour of rice.
+                    White rice is the same grain without the hull, the bran layer, and the cereal germ</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <span class="notify-badge">Premium</span>
+          <img src="https://3.imimg.com/data3/GD/RY/MY-16996944/thai-homali-jasmine-rice-price-5-broken-500x500.jpg" class="image-of-card " alt="Aata">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Jasmine Rice</h3>
+          <p><em><strong>Discount 21% (₹150)</em><br>₹<del>699</del> ₹549</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#jRice">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="jRice">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Jasmine Rice</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                  <img src="https://3.imimg.com/data3/GD/RY/MY-16996944/thai-homali-jasmine-rice-price-5-broken-500x500.jpg" alt="Basmati Rice" height="25%" width="55%">
+                  <p>Jasmine rice is a fragrant side dish in many Thai and Asian dishes, and people more commonly eat it in its refined, white form. However, consuming high carbohydrate foods, such as white rice, in excess has links with health
+                    conditions, including obesity and an increased risk of disease. Therefore, choosing whole grain varieties is more beneficial to health.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://ik.imagekit.io/dunzo/tr:w-$w$,h-$h$,cm-pad_resize/Zm5LRERnK3pDamZVRGtsbnpnd3VRZz09-product_image.jpg" width="100%" class="image-of-card " alt="Aata">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Mogra Rice</h3>
+          <p><em><strong>Discount 20% (₹16)</em><br>₹<del>80</del> ₹64</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#mRice">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="mRice">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Mogra Rice</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://ik.imagekit.io/dunzo/tr:w-$w$,h-$h$,cm-pad_resize/Zm5LRERnK3pDamZVRGtsbnpnd3VRZz09-product_image.jpg" alt="Mogra Rice" height="25%" width="55%">
+                  <p>Kinki rice is further classified into Mogra,Mini Mogra and Tiny Mogra in the descending order of the rice grain size.
+
+                    The cost of rice decreases with decreasing rice grain length. Full length grain rice is most expensive, but Mogra is cheap because it is broken rice. Mini Mogra is even cheaper than Mogra.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="headingForPages txt-cen">Pulses</h1>
+    </div>
+
+    <div class="card-deck">
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://m.media-amazon.com/images/I/71bCemMa7EL._SL1300_.jpg" class="image-of-card " alt="Moong Dal">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Moong Dal</h3>
+          <p><em><strong>Discount 22% (₹43)</em><br>₹<del>200</del> ₹157</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#mDal">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="mDal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Moong Dal</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://m.media-amazon.com/images/I/71bCemMa7EL._SL1300_.jpg" class="image-of-card " alt="Moong Dal" eight="25%" width="55%">
+                  <p>Moong dal is a nutrient-rich food. It is enriched with minerals like potassium, magnesium, iron, and copper. In addition to this, it also contains folate, fibre, and vitamin B6. Rich in B-complex vitamins, this yellow dal helps
+                    break down carbohydrates into glucose and produce usable energy for your body</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <span class="notify-badge">Premium</span>
+          <img src="https://qph.fs.quoracdn.net/main-qimg-b8f040f59e0a149618f8310e591e5bff-lq" class="image-of-card " alt="Aarhar Dal">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow:1px 2px 10px #000000;">Arhar Dal</h3>
+          <p><em><strong>Discount 24% (₹49)</em><br>₹<del>169</del> ₹120</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#ahar">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="ahar">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Arhar Dal</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://qph.fs.quoracdn.net/main-qimg-b8f040f59e0a149618f8310e591e5bff-lq" alt="Moong Dal" eight="25%" width="55%">
+                  <p>The pigeon pea is a perennial legume from the family Fabaceae. Since its domestication in the Indian subcontinent at least 3,500 years ago, its seeds have become a common food in Asia, Africa, and Latin America.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://myfavouritepastime.files.wordpress.com/2018/10/img_16311.jpg" class="image-of-card " alt="Masoor Dal">
+        </div>
+        <div class="txt-cen">
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <h3 style="text-shadow:1px 2px 10px #000000;">Masoor Dal</h3>
+          <p><em><strong>Discount 19% (₹31)</em><br>₹<del>160</del> ₹129</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#mdal">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="mdal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Masoor Dal</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://myfavouritepastime.files.wordpress.com/2018/10/img_16311.jpg" alt="Moong Dal" eight="25%" width="55%">
+                  <p>The lentil is an edible legume. It is an annual plant known for its lens-shaped seeds. It is about 40 cm tall, and the seeds grow in pods, usually with two seeds in each. As a food crop, the majority of world production comes
+                    from Canada and India, producing 58% combined of the world total.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <span class="notify-badge">Premium</span>
+          <img src="https://thumbs.dreamstime.com/b/close-up-organic-rajma-laal-lobia-red-kidney-beans-dal-full-frame-background-close-up-organic-rajma-laal-lobia-red-213345039.jpg" class="image-of-card " alt="Rajma">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow:1px 2px 10px #000000;">Rajma</h3>
+          <p><em><strong>Discount 27% (₹48)</em><br>₹<del>180</del> ₹132</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#rajma">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="rajma">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Rajma</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://thumbs.dreamstime.com/b/close-up-organic-rajma-laal-lobia-red-kidney-beans-dal-full-frame-background-close-up-organic-rajma-laal-lobia-red-213345039.jpg" alt="Rajma Dal" eight="25%" width="55%">
+                  <p>Rājmā, also known as rajmah, rāzmā, or lal lobia, is a vegetarian dish, originating from the Indian subcontinent, consisting of red kidney beans in a thick gravy with many Indian whole spices, and is usually served with rice. It
+                    is a part of regular diet in India, Nepal, Bangladesh and Punjab province of Pakistan.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="headingForPages txt-cen">Oil/Refined</h1>
+    </div>
+
+    <div class="card-deck">
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/32f2fb6a-73d6-465c-bd85-8de38ea146af.__CR2,0,970,300_PT0_SX970_V1___.png" width="100%" class="image-of-card " alt="Mustard Oil">
+        </div>
+        <div class="txt-cen">
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <h3 style="text-shadow:1px 2px 10px #000000;">Mustard Oil</h3>
+          <p><em><strong>Discount 9% (₹20)</em><br>₹<del>205</del> ₹185</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#mustard">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="mustard">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Fortune Kachi Ghani Mustard Oil</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://d212y4fjk9i0rg.cloudfront.net/sites/default/files/kachi-gani-mustard-oil.png" alt="Mustard Oil" eight="25%" width="55%">
+                  <p>Pure mustard oil and mustard essential oil may help reduce inflammation and pain, slow cancer cell growth, block microbial growth, and enhance hair and skin health. Both can also be diluted with a carrier oil and applied
+                    topically in massage oils, face masks, and hair treatments</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://www.oswalsoap.com/assets/admin/products/product120190904050901.jpg" class="image-of-card " alt="Refined">
+        </div>
+        <div class="txt-cen">
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <h3 style="text-shadow:1px 2px 10px #000000;">Refined Oil</h3>
+          <p><em><strong>Discount 14% (₹31)</em><br>₹<del>210</del> ₹179</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#refined">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="refined">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Fortune Refined Oil</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.oswalsoap.com/assets/admin/products/product120190904050901.jpg" alt="Refined Oil" eight="25%" width="55%">
+                  <p>Oil that has been refined has been altered by using chemicals that are harmful to us. In short it means to 'purify'. But the meaning of purify has many definitions. It may mean the oil was treated with acid, or purified with an
+                    alkali, or bleached. It can also be neutralized, filtered or deodorized.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://m.media-amazon.com/images/I/714mD3ByZIL._SL1500_.jpg" class="image-of-card" alt="Dalda">
+        </div>
+        <div class="txt-cen">
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <h3 style="text-shadow:1px 2px 10px #000000;">Dalda</h3>
+          <p><em><strong>Discount 25% (₹50)</em><br>₹<del>200</del> ₹150</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#dalda">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="dalda">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Dalda</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://shimlabasket.com/wp-content/uploads/2021/11/dalda-vanaspati-500-ml-0-20210301.jpeg" alt="Dalda Oil" eight="25%" width="55%">
+                  <p></p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <span class="notify-badge">Premium</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/xxl/40215102_2-bb-popular-desi-ghee.jpg" class="forSmallImages image-of-card " alt="Ghee">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow:1px 2px 10px #000000;">Ghee</h3>
+          <p><em><strong>Discount 65%</em><br>₹<del>100</del> ₹90</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#ghee">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="ghee">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Deshi Ghee</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.bigbasket.com/media/uploads/p/xxl/40215102_2-bb-popular-desi-ghee.jpg" alt="Dalda Oil" eight="25%" width="55%">
+                  <p>Ghee is a rich source of vitamins, antioxidants, and healthy fats. While fat should be consumed in moderation, studies show that eating fatty foods such as ghee can help the body absorb some essential vitamins and minerals.
+                    Cooking healthy foods and vegetables with ghee may help you absorb more nutrients.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="headingForPages txt-cen">Aata</h1>
+    </div>
+
+
+    <div class="card-deck">
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <span class="notify-badge">Premium</span>
+          <img src="https://www.zopmart.in/wp-content/uploads/2020/11/aashirvaad-atta-10kg3.jpg" class="image-of-card " alt="Aata">
+        </div>
+        <div class="txt-cen">
+          <span class="badge rounded-pill">Premium</span>
+          <h3 style="text-shadow:1px 2px 10px #000000;">Aashirvaad Aata</h3>
+          <p><em><strong>Discount 10% (₹10)</em><br>₹<del>99</del> ₹89</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#aashirvaad">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="aashirvaad">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Aashirvaad Aata</h4>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.zopmart.in/wp-content/uploads/2020/11/aashirvaad-atta-10kg3.jpg" alt="Dalda Oil" eight="25%" width="55%">
+                  <p>Aashirvaad prides itself in making 100% pure whole wheat atta with all its natural dietary fibres intact which ensures that you and your family receive optimum nutrition for a healthy life. Directly sourced from a wide network of
+                    Indian rural farmers, Aashirvaad Shudh Chakki Atta is Made in India.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://www.bigbasket.com/media/uploads/p/xxl/40120174-2_5-fortune-chakki-fresh-atta-100-atta-0-maida.jpg" class="image-of-card " alt="Fortune aata">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow:1px 2px 10px #000000;">Fortune Aata</h3>
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <p><em><strong>Discount 12% (₹5)</em><br>₹<del>37</del> ₹32</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#forAata">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="forAata">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Forutne Aata</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.bigbasket.com/media/uploads/p/xxl/40120174-2_5-fortune-chakki-fresh-atta-100-atta-0-maida.jpg" alt="Dalda Oil" eight="25%" width="55%">
+                  <p>Why should you buy Fortune Chakki Fresh Atta? We recommend using Fortune Chakki Fresh Atta as it is made with 100% finest quality wheat and contains 0% Maida. It assures that your rotis will be soft, fluffy and healthy.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://www.patanjaliayurved.net/assets/product_images/400x300/1589024937400x300.jpg" class="image-of-card " alt="Patanjali aata">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow:1px 2px 10px #000000;">Pantanjali Aata</h3>
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <p><em><strong>Discount 0% (₹0)</em><br>₹260</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#pata">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="pata">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Patanjali Aata</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.patanjaliayurved.net/assets/product_images/400x300/1589024937400x300.jpg" alt="PatanJali Oil" eight="25%" width="55%">
+                  <p>Navratna Atta is actually a mixture of Amaranth, Maize, Sorghum, Water caltrop, Soybean and Pearl millet. Patanjali Navratna Atta is made of richest multigrain flour by mixing 9 grains wheat which all have different ayurvedic
+                    benefits.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/10/20/Pictures/_55c6a8d6-128d-11eb-894e-a8561a6abce9.jpg" class="image-of-card " alt="Patanjali aata">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow:1px 2px 10px #000000;">Kuttu Aata</h3>
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <p><em><strong>Discount 10% (₹50)</em>₹<del>499</del><br>₹349</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#kuttuata">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="kuttuata">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Kuttu Aata</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/10/20/Pictures/_55c6a8d6-128d-11eb-894e-a8561a6abce9.jpg" alt="Kuttu" eight="25%" width="55%">
+                  <p>Navratna Atta is actually a mixture of Amaranth, Maize, Sorghum, Water caltrop, Soybean and Pearl millet. Patanjali Navratna Atta is made of richest multigrain flour by mixing 9 grains wheat which all have different ayurvedic
+                    benefits.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="headingForPages txt-cen">Home Remedies</h1>
+    </div>
+
+
+    <div class="card-deck">
+      <<div class="cardForPages border border-primary card-l-mar">
+        <div class="item" style="width:100%">
+          <!-- <span class="notify-badge">Premium</span> -->
+          <img src="https://www.bigbasket.com/media/uploads/p/l/40058967_2-ashok-powder-kashmiri-mirch.jpg" class="image-of-card " alt="Kashmiri Mirch">
+        </div>
+        <div class="txt-cen">
+          <h3 style="text-shadow: 1px 2px 10px #000000;">Kashmiri Mirch</h3>
+          <!-- <span class="badge rounded-pill">Premium</span> -->
+          <p><em><strong>Discount 6% (₹5)</em><br>₹<del>76</del> ₹71</strong></p>
+          <hr>
+          <p>Select Quatity</p>
+          <select class="select-margin">
+            <option value="">1-Pkt</option>
+            <option value="">2-Pkt</option>
+            <option value="">3-Pkt</option>
+            <option value="">4-Pkt</option>
+            <option value="">5-Pkt</option>
+          </select>
+          <br>
+          <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#kashmirMirch">Add to Cart</a>
+
+          <!-- The Modal -->
+          <div class="modal" id="kashmirMirch">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Ashok-Kashmiri Mirch</h4>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img src="https://www.bigbasket.com/media/uploads/p/l/40058967_2-ashok-powder-kashmiri-mirch.jpg" alt="Kashmiri Mirch" eight="25%" width="55%">
+                  <p>Special best quality Karnataka chillies are hygienically powdered to give a grand red colour to all vegetarian & Non vegetarian preparations.
+                    No foreign matter or colouring agent has been used.</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                  <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+
+    <div class="cardForPages border border-primary card-l-mar">
+      <div class="item" style="width:100%">
+        <!-- <span class="notify-badge">Premium</span> -->
+        <img src="https://www.bigbasket.com/media/uploads/p/l/40083082_8-nescafe-ready-to-drink-coffee-flavoured-milk-hazelnut-flavour.jpg" class="image-of-card " alt="Patanjali aata">
+      </div>
+      <div class="txt-cen">
+        <h3 style="text-shadow: 1px 2px 10px #000000;">Coffee</h3>
+        <!-- <span class="badge rounded-pill">Premium</span> -->
+        <p><em><strong>Discount 13% (₹10)</em><br>₹<del>40</del> ₹35</strong></p>
+        <hr>
+        <p>Select Quatity</p>
+        <select class="select-margin">
+          <option value="">1-Pkt</option>
+          <option value="">2-Pkt</option>
+          <option value="">3-Pkt</option>
+          <option value="">4-Pkt</option>
+          <option value="">5-Pkt</option>
+        </select>
+        <br>
+        <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#coffee">Add to Cart</a>
+
+        <!-- The Modal -->
+        <div class="modal" id="coffee">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Nescafe Ready To Drink Coffee Flavoured Milk </h4>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40083082_8-nescafe-ready-to-drink-coffee-flavoured-milk-hazelnut-flavour.jpg" alt="Coffee" eight="25%" width="55%">
+                <p>Now indulge in your favourite, the tastiest cold coffee in this convenient on the go pack. Sip or shoot, it’s your coffee! Nescafe Hazelnut brings out a delicious nutty indulgence of Hazelnut in your regular coffee, perfect for
+                  when you’re on the move. Discover this exciting range of Ready-to-Drink coffees from one of the world’s biggest coffee brands, Nescafe. This range of deliciously brewed cold coffees comes in a convenient ready to drink format in
+                  Intense Café and Chilled Latte flavours and tastes best when chilled. Overall these years, Nescafe has grown on the commitment to make your brew ever more delightful, for you to kick-start an adventure! Usage: Pack contains 1 serve
+                  (180ml), providing approximately 149 kcal. </p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="cardForPages border border-primary card-l-mar">
+      <div class="item" style="width:100%">
+        <span class="notify-badge">Premium</span>
+        <img src="https://www.bigbasket.com/media/uploads/p/l/40199390_2-tata-tea-premium-tea.jpg" class="image-of-card " alt="Tata Tea Premium Tea">
+      </div>
+      <div class="txt-cen">
+        <h3 style="text-shadow:1px 2px 10px #000000;">Tata Tea Premium Tea</h3>
+        <!-- <span class="badge rounded-pill">Premium</span> -->
+        <p><em><strong>Discount 25% (₹177)</em><br>₹<del>705</del> ₹528</strong></p>
+        <hr>
+        <p>Select Quatity</p>
+        <select class="select-margin">
+          <option value="">1-Pkt</option>
+          <option value="">2-Pkt</option>
+          <option value="">3-Pkt</option>
+          <option value="">4-Pkt</option>
+          <option value="">5-Pkt</option>
+        </select>
+        <br>
+        <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#tatatea">Add to Cart</a>
+
+        <!-- The Modal -->
+        <div class="modal" id="tatatea">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Tata Tea Premium Tea</h4>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/40199390_2-tata-tea-premium-tea.jpg" alt="Tata Tea Premium Tea" eight="25%" width="55%">
+                <p>Chai is more than a cup of tea; rather it is an integral part of the culture and life of every Indian. While drinking chai is enjoyed across the country, people like their cup in India vary across regions. Tata Tea Premium- Desh ki
+                  Chai, sourced solely from India, understands these varying taste preferences and hence our tea experts have crafted a unique blend that chai lovers across India will enjoy. Blended since 1985.</p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="cardForPages border border-primary card-l-mar">
+      <div class="item" style="width:100%">
+        <!-- <span class="notify-badge">Premium</span> -->
+        <img src="https://www.bigbasket.com/media/uploads/p/l/101165_14-tide-detergent-washing-powder-extra-power-lemon-mint.jpg" class="image-of-card " alt="Patanjali aata">
+      </div>
+      <div class="txt-cen">
+        <h3 style="text-shadow:1px 2px 10px #000000;">Tide</h3>
+        <!-- <span class="badge rounded-pill">Premium</span> -->
+        <p><em><strong>Discount 7% (₹14)</em><br>₹<del>230</del> ₹216</strong></p>
+        <hr>
+        <p>Select Quatity</p>
+        <select class="select-margin">
+          <option value="">1-Pkt</option>
+          <option value="">2-Pkt</option>
+          <option value="">3-Pkt</option>
+          <option value="">4-Pkt</option>
+          <option value="">5-Pkt</option>
+        </select>
+        <br>
+        <a href="#" class="btn btn-primary add-to-cart-css" data-bs-toggle="modal" data-bs-target="#tide">Add to Cart</a>
+
+        <!-- The Modal -->
+        <div class="modal" id="tide">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Tide</h4>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <img src="https://www.bigbasket.com/media/uploads/p/l/101165_14-tide-detergent-washing-powder-extra-power-lemon-mint.jpg" alt="Kuttu" eight="25%" width="55%">
+                <p>New Tide Plus Double Power detergent powder has Stain Magnets, which can remove the toughest of stains to give you STAINLESS WHITES. Tide Plus' improved formulation and enzyme system has been specially designed to beat tough
+                  kitchen stains and give you outstanding whiteness. We often get food stains while cooking, when kids eat, while spending time with family..</p>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn addToCart" data-bs-dismiss="modal">Add to Cart</button>
+                <button type="button" class="btn orderNow" data-bs-dismiss="modal">Order Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify"> PrizMart.in<i>WANTS TO BE A LEADER IN ONLINE GROCERY SHOPPING SECTOR</i> is an initiative to help the people to purschase the Grocery itmes at minimal cost. PrizMart Web focuses on providing the most
+            efficient
+            service and to be simple website functioning for user. We will help user build up confidence in online shopping.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="grocery.html">Grocery</a></li>
+            <li><a href="index.html">Vegetable</a></li>
+            <li><a href="index.html">Fruits</a></li>
+            <li><a href="index.html">My Account</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+            <a href="#">Shivansh</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="https://www.instagram.com/shivtheduce/"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/shivansh-pal-87103b1b3/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script>
+    var pre = document.getElementById('preloader');
+
+    function myFun() {
+      pre.style.display = 'none';
+
+    }
+  </script>
+  <script src="https://use.fontawesome.com/28e27b9781.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
